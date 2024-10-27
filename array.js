@@ -55,3 +55,25 @@ if (books.includes("javascript")) {
 } else {
   console.log("There is no JS books here");
 }
+
+/*
+Task 4
+4. Checking if it's an Array
+Instructions:
+
+Create different variables, each containing either an array or a non-array value.
+Now use isArray to check if each variable is an array.
+Print a message to the console indicating whether each variable is an array or not.
+*/
+
+const names = ["Rakib", "Rafiq", "Razu", "Rayhan", "Musfi", "Shilpee"];
+const isItArray = Array.isArray(names);
+console.log("Is it array or not true/false", isItArray);
+
+const name = "Rakib";
+console.log(
+  "Is it array or not true/false",
+  Array.isArray(name),
+  "It is a :",
+  typeof name
+);
