@@ -33,3 +33,25 @@ touristsDestination.push("Sunamgonj", "Kanchonjonga");
 //d.Remove the last tourist destination you have added
 touristsDestination.pop();
 console.log("Final array is: ", touristsDestination);
+
+/*
+Task 3
+3. Checking Array Membership with 'includes'
+Instructions:
+
+Create an array of books containing different book.
+Use the includes method to check if the array contains a javascript book.
+Print a message to the console indicating whether the element is present in the array or not.
+
+*/
+
+const books = ["HTML", "CSS", "javascript", "php", "php oop"];
+
+if (books.includes("javascript")) {
+  console.log(
+    "Javascript book is present in index no: ",
+    books.indexOf("javascript")
+  );
+} else {
+  console.log("There is no JS books here");
+}
